@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python clean_rag.py)",
+      "Bash(python -m json.tool)",
+      "Bash(cd:*)",
+      "Bash(python -c \"import sys, json; print\\(json.dumps\\(json.loads\\(sys.stdin.read\\(\\)\\), indent=2\\)\\)\")"
+    ]
+  }
+}
