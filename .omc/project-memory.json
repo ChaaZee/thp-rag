@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1781738199929,
+  "lastScanned": 1781979552761,
   "projectRoot": "C:\\Users\\chaze\\OneDrive\\Desktop\\APPS\\thp-rag",
   "techStack": {
     "languages": [],
@@ -24,16 +24,38 @@
   "structure": {
     "isMonorepo": false,
     "workspaces": [],
-    "mainDirectories": [],
+    "mainDirectories": [
+      "scripts"
+    ],
     "gitBranches": null
   },
   "customNotes": [],
-  "directoryMap": {},
+  "directoryMap": {
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 9,
+      "lastAccessed": 1781979552739,
+      "keyFiles": [
+        "cleaned_rag_dataset.jsonl",
+        "clean_rag.py",
+        "embedder.py",
+        "error.txt",
+        "get-transcripts.py"
+      ]
+    }
+  },
   "hotPaths": [
     {
       "path": "clean_rag.py",
       "accessCount": 4,
       "lastAccessed": 1781738749850,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 2,
+      "lastAccessed": 1781979731637,
       "type": "file"
     }
   ],
