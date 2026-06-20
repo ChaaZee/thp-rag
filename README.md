@@ -69,13 +69,13 @@ pip install -r requirements.txt
 ### Running the RAG System
 
 ```bash
-python run_rag.py --query "How do I improve my vertical jump?"
+python rag_model.py
 ```
 
 ### Data Cleaning
 
 ```bash
-python clean_rag.py --input rag_dataset.jsonl --output cleaned_rag_dataset.jsonl
+python clean_rag.py
 ```
 
 ## Data Cleaning Details
